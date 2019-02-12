@@ -1,0 +1,9 @@
+
+from .CopyFileToPathDialog import CopyFileToPathDialog
+from .CopyDirToPathDialog import CopyDirToPathDialog
+from .ExecuteItemWidget import ExecuteItemWidget
+from .MergeFilesAndZipDialog import MergeFilesAndZipDialog
+from .OpenTerminalDialog import OpenTerminalDialog
+from .RemoveFileDialog import RemoveFileDialog
+from .RenameFileDialog import RenameFileDialog
+from .TerminalCommandDialog import TerminalCommandDialog
