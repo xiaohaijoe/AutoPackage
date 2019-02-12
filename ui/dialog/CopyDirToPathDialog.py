@@ -11,9 +11,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_CopyDirToPathDialog(object):
     def setupUi(self, CopyDirToPathDialog):
         CopyDirToPathDialog.setObjectName("CopyDirToPathDialog")
-        CopyDirToPathDialog.resize(527, 150)
+        CopyDirToPathDialog.resize(1006, 163)
         self.gridLayoutWidget = QtWidgets.QWidget(CopyDirToPathDialog)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(20, 20, 491, 81))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(20, 20, 961, 81))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
         self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
@@ -37,10 +37,10 @@ class Ui_CopyDirToPathDialog(object):
         self.destBtn.setObjectName("destBtn")
         self.gridLayout.addWidget(self.destBtn, 1, 2, 1, 1)
         self.confirmBtn = QtWidgets.QPushButton(CopyDirToPathDialog)
-        self.confirmBtn.setGeometry(QtCore.QRect(423, 110, 91, 32))
+        self.confirmBtn.setGeometry(QtCore.QRect(520, 110, 91, 32))
         self.confirmBtn.setObjectName("confirmBtn")
         self.cancelBtn = QtWidgets.QPushButton(CopyDirToPathDialog)
-        self.cancelBtn.setGeometry(QtCore.QRect(330, 110, 91, 32))
+        self.cancelBtn.setGeometry(QtCore.QRect(427, 110, 91, 32))
         self.cancelBtn.setObjectName("cancelBtn")
 
         self.retranslateUi(CopyDirToPathDialog)

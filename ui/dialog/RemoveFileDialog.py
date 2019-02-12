@@ -11,9 +11,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_RemoveFileDialog(object):
     def setupUi(self, RemoveFileDialog):
         RemoveFileDialog.setObjectName("RemoveFileDialog")
-        RemoveFileDialog.resize(527, 151)
+        RemoveFileDialog.resize(1001, 175)
         self.gridLayoutWidget = QtWidgets.QWidget(RemoveFileDialog)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(20, 20, 491, 81))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(20, 20, 961, 81))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
         self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
@@ -55,10 +55,10 @@ class Ui_RemoveFileDialog(object):
         self.horizontalLayout.addWidget(self.dirRadio)
         self.gridLayout.addLayout(self.horizontalLayout, 0, 1, 1, 1)
         self.confirmBtn = QtWidgets.QPushButton(RemoveFileDialog)
-        self.confirmBtn.setGeometry(QtCore.QRect(423, 110, 91, 32))
+        self.confirmBtn.setGeometry(QtCore.QRect(513, 120, 91, 32))
         self.confirmBtn.setObjectName("confirmBtn")
         self.cancelBtn = QtWidgets.QPushButton(RemoveFileDialog)
-        self.cancelBtn.setGeometry(QtCore.QRect(330, 110, 91, 32))
+        self.cancelBtn.setGeometry(QtCore.QRect(420, 120, 91, 32))
         self.cancelBtn.setObjectName("cancelBtn")
 
         self.retranslateUi(RemoveFileDialog)

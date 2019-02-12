@@ -11,9 +11,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_OpenTerminalDialog(object):
     def setupUi(self, OpenTerminalDialog):
         OpenTerminalDialog.setObjectName("OpenTerminalDialog")
-        OpenTerminalDialog.resize(527, 109)
+        OpenTerminalDialog.resize(1000, 132)
         self.gridLayoutWidget = QtWidgets.QWidget(OpenTerminalDialog)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(20, 20, 491, 41))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(20, 20, 961, 41))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
         self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
@@ -42,10 +42,10 @@ class Ui_OpenTerminalDialog(object):
         self.destEdit.setObjectName("destEdit")
         self.gridLayout.addWidget(self.destEdit, 0, 1, 1, 1)
         self.confirmBtn = QtWidgets.QPushButton(OpenTerminalDialog)
-        self.confirmBtn.setGeometry(QtCore.QRect(423, 70, 91, 32))
+        self.confirmBtn.setGeometry(QtCore.QRect(513, 80, 91, 32))
         self.confirmBtn.setObjectName("confirmBtn")
         self.cancelBtn = QtWidgets.QPushButton(OpenTerminalDialog)
-        self.cancelBtn.setGeometry(QtCore.QRect(330, 70, 91, 32))
+        self.cancelBtn.setGeometry(QtCore.QRect(420, 80, 91, 32))
         self.cancelBtn.setObjectName("cancelBtn")
 
         self.retranslateUi(OpenTerminalDialog)

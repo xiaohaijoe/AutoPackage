@@ -24,7 +24,7 @@ class Constant:
       },
       {
         "command": "copy_dir_to_dir",
-        "name": "复制文件夹下所有文件到指定文件夹下"
+        "name": "复制文件夹到指定目录下"
       },
       {
         "command": "remove_file",
@@ -36,7 +36,7 @@ class Constant:
       },
       {
         "command": "merge_files_and_zip_to_dest_dir",
-        "name": "合并文件并压缩到指定文件"
+        "name": "合并文件并压缩"
       },
       {
         "command": "open_terminal_to_dest_path",

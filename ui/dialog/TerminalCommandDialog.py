@@ -11,9 +11,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_TernimalCommandDialog(object):
     def setupUi(self, TernimalCommandDialog):
         TernimalCommandDialog.setObjectName("TernimalCommandDialog")
-        TernimalCommandDialog.resize(527, 109)
+        TernimalCommandDialog.resize(1000, 130)
         self.gridLayoutWidget = QtWidgets.QWidget(TernimalCommandDialog)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(20, 20, 491, 41))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(20, 20, 961, 41))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
         self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
@@ -25,10 +25,10 @@ class Ui_TernimalCommandDialog(object):
         self.terminalCommandEdit.setObjectName("terminalCommandEdit")
         self.gridLayout.addWidget(self.terminalCommandEdit, 0, 1, 1, 1)
         self.confirmBtn = QtWidgets.QPushButton(TernimalCommandDialog)
-        self.confirmBtn.setGeometry(QtCore.QRect(423, 70, 91, 32))
+        self.confirmBtn.setGeometry(QtCore.QRect(513, 80, 91, 32))
         self.confirmBtn.setObjectName("confirmBtn")
         self.cancelBtn = QtWidgets.QPushButton(TernimalCommandDialog)
-        self.cancelBtn.setGeometry(QtCore.QRect(330, 70, 91, 32))
+        self.cancelBtn.setGeometry(QtCore.QRect(420, 80, 91, 32))
         self.cancelBtn.setObjectName("cancelBtn")
 
         self.retranslateUi(TernimalCommandDialog)

@@ -6,19 +6,31 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>602</height>
+    <width>1330</width>
+    <height>804</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
    <widget class="QPushButton" name="mergeSubmitBtn">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>510</y>
+      <x>1210</x>
+      <y>660</y>
       <width>101</width>
       <height>41</height>
      </rect>
@@ -32,8 +44,8 @@
      <rect>
       <x>30</x>
       <y>10</y>
-      <width>741</width>
-      <height>351</height>
+      <width>1281</width>
+      <height>421</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_2">
@@ -133,9 +145,9 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>370</y>
-      <width>741</width>
-      <height>131</height>
+      <y>450</y>
+      <width>1281</width>
+      <height>191</height>
      </rect>
     </property>
    </widget>
@@ -143,7 +155,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>510</y>
+      <y>660</y>
       <width>101</width>
       <height>41</height>
      </rect>
@@ -159,7 +171,7 @@
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>510</y>
+      <y>660</y>
       <width>91</width>
       <height>41</height>
      </rect>
@@ -175,7 +187,7 @@
     <property name="geometry">
      <rect>
       <x>130</x>
-      <y>510</y>
+      <y>660</y>
       <width>91</width>
       <height>41</height>
      </rect>
@@ -190,7 +202,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1330</width>
      <height>22</height>
     </rect>
    </property>

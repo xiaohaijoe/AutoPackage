@@ -11,9 +11,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_RenameFileDialog(object):
     def setupUi(self, RenameFileDialog):
         RenameFileDialog.setObjectName("RenameFileDialog")
-        RenameFileDialog.resize(527, 164)
+        RenameFileDialog.resize(1000, 196)
         self.gridLayoutWidget = QtWidgets.QWidget(RenameFileDialog)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(20, 20, 491, 102))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(20, 20, 961, 101))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
         self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
@@ -61,10 +61,10 @@ class Ui_RenameFileDialog(object):
         self.renameEdit.setObjectName("renameEdit")
         self.gridLayout.addWidget(self.renameEdit, 2, 1, 1, 1)
         self.confirmBtn = QtWidgets.QPushButton(RenameFileDialog)
-        self.confirmBtn.setGeometry(QtCore.QRect(423, 120, 91, 32))
+        self.confirmBtn.setGeometry(QtCore.QRect(513, 140, 91, 32))
         self.confirmBtn.setObjectName("confirmBtn")
         self.cancelBtn = QtWidgets.QPushButton(RenameFileDialog)
-        self.cancelBtn.setGeometry(QtCore.QRect(330, 120, 91, 32))
+        self.cancelBtn.setGeometry(QtCore.QRect(420, 140, 91, 32))
         self.cancelBtn.setObjectName("cancelBtn")
 
         self.retranslateUi(RenameFileDialog)
