@@ -24,7 +24,7 @@ class IndexController(QtWidgets.QMainWindow, Ui_indexWindow):
     def __init__(self):
         super(IndexController,self).__init__()
         self.setupUi(self)
-        self.setWindowTitle("智慧城交通事业部自动打包上传工具V1.0")
+        self.setWindowTitle("自动打包脚本工具V1.0")
         self.commandManager = CommandManager()
 
         self.newExecuteListBtn.clicked.connect(self.on_new_execute_list)                        # 新建指令集按钮
