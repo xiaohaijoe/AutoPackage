@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>867</width>
-    <height>629</height>
+    <width>667</width>
+    <height>475</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -63,6 +63,12 @@
       </item>
       <item row="1" column="2">
        <widget class="QListWidget" name="executeListWidget">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="horizontalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>
         </property>
@@ -200,7 +206,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>867</width>
+     <width>667</width>
      <height>22</height>
     </rect>
    </property>
