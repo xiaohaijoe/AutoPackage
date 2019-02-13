@@ -116,7 +116,7 @@ class Ui_ExecuteItemWidget(object):
         self.detailLabel.setIndent(0)
         self.detailLabel.setObjectName("detailLabel")
         self.gridLayout.addWidget(self.detailLabel, 1, 0, 1, 1)
-        spacerItem1 = QtWidgets.QSpacerItem(20, 1, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        spacerItem1 = QtWidgets.QSpacerItem(20, 15, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.gridLayout.addItem(spacerItem1, 2, 0, 1, 1)
         self.gridLayout_2.addLayout(self.gridLayout, 0, 0, 1, 1)
 
