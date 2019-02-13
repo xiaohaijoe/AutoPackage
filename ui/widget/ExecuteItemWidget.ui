@@ -218,7 +218,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>9</pointsize>
          <strikeout>false</strikeout>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>

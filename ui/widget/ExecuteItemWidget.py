@@ -102,7 +102,7 @@ class Ui_ExecuteItemWidget(object):
         self.detailLabel.setMinimumSize(QtCore.QSize(0, 0))
         self.detailLabel.setMaximumSize(QtCore.QSize(16777215, 16777215))
         font = QtGui.QFont()
-        font.setPointSize(10)
+        font.setPointSize(9)
         font.setStrikeOut(False)
         font.setStyleStrategy(QtGui.QFont.PreferDefault)
         self.detailLabel.setFont(font)
