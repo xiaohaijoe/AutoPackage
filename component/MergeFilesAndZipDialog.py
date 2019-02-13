@@ -6,6 +6,8 @@ from PyQt5.QtWidgets import QMessageBox, QDialog
 import time
 
 from ui.dialog.MergeFilesAndZipDialog import Ui_MergeFilesAndZipDialog
+from util import ScreenUtil
+
 
 class MergeFilesAndZipDialog(QtWidgets.QDialog, Ui_MergeFilesAndZipDialog):
 
@@ -34,6 +36,9 @@ class MergeFilesAndZipDialog(QtWidgets.QDialog, Ui_MergeFilesAndZipDialog):
         self.confirmBtn.clicked.connect(self.on_confirm)
         self.cancelBtn.clicked.connect(self.reject)
         self.listView.clicked.connect(self.on_remove_path)
+
+        width, height = ScreenUtil.get_screen_size()
+        self.resize(width*0.5, height*0.5)
 
     def init_data(self):
         self.init_list_view(self.filesPath)

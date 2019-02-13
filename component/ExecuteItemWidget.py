@@ -13,6 +13,10 @@ class ExecuteItemWidget(QtWidgets.QWidget,Ui_ExecuteItemWidget):
         self.index = index
         self.nameLabel.setText(str(self.index+1)+". "+self.item['name'])
         self.detailLabel.setText(self.item['detail'])
+        self.detailLabel.adjustSize()
+        # self.detailLabel.setGeometry(QRect(328, 240, 329, 27 * 4)) # 四倍行距
+        # self.detailLabel.setWordWrap(True)
+        # self.detailLabel.setAlignment(Qt.AlignTop)
         # s = self.item['detail']
         # s = str(s).replace('\n', '<br>')
         # self.detailLabel.setText('<div style="line-height:30px;font-size:20px;">'+ s + '</div>')

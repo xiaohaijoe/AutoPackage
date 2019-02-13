@@ -2,6 +2,8 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMessageBox, QDialog
 
 from ui.dialog.RemoveFileDialog import Ui_RemoveFileDialog
+from util import ScreenUtil
+
 
 class RemoveFileDialog(QtWidgets.QDialog, Ui_RemoveFileDialog):
 
@@ -25,6 +27,8 @@ class RemoveFileDialog(QtWidgets.QDialog, Ui_RemoveFileDialog):
         self.confirmBtn.clicked.connect(self.on_confirm)
         self.cancelBtn.clicked.connect(self.reject)
 
+        width, height = ScreenUtil.get_screen_size()
+        self.resize(width*0.5, self.height())
 
     # 打开源文件
     def on_open_origin(self):

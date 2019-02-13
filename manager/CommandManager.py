@@ -192,10 +192,10 @@ class CommandManager:
                 command["filesPath"] = filesPath
                 command["zipPath"] = zipPath
                 command["lastPath"] = lastPath
-                detail = "源文件路径：\n"
+                detail = "源文件路径：<br>"
                 for path in filesPath:
-                    detail += path + "\n"
-                detail += "压缩到：" + zipPath
+                    detail += path + "<br>"
+                detail += "压缩到：" + zipPath + "<br>"
                 command["detail"] = detail
             return status
         return False

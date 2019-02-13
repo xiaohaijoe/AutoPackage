@@ -1,6 +1,9 @@
 
 # IDE
-.idea
+.idea/
 
 # Misc
 .DS_Store
+
+# Compiled binary addons
+.build/

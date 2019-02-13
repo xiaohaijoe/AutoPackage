@@ -6,147 +6,149 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1000</width>
-    <height>196</height>
+    <width>627</width>
+    <height>200</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QWidget" name="gridLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>20</y>
-     <width>961</width>
-     <height>101</height>
-    </rect>
-   </property>
-   <layout class="QGridLayout" name="gridLayout">
-    <item row="1" column="0">
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>文件路径</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0">
-     <widget class="QLabel" name="label_2">
-      <property name="text">
-       <string>文件类型</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <layout class="QHBoxLayout" name="horizontalLayout">
-      <item>
-       <widget class="QRadioButton" name="fileRadio">
-        <property name="text">
-         <string>文件</string>
-        </property>
-        <property name="checked">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QRadioButton" name="dirRadio">
-        <property name="text">
-         <string>文件夹</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item row="1" column="2">
-     <widget class="QPushButton" name="originBtn">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>0</width>
-        <height>0</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>16777215</width>
-        <height>16777215</height>
-       </size>
-      </property>
-      <property name="sizeIncrement">
-       <size>
-        <width>0</width>
-        <height>0</height>
-       </size>
-      </property>
-      <property name="baseSize">
-       <size>
-        <width>0</width>
-        <height>0</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <kerning>true</kerning>
-       </font>
-      </property>
-      <property name="text">
-       <string>选择</string>
-      </property>
-      <property name="autoDefault">
-       <bool>false</bool>
-      </property>
-      <property name="flat">
-       <bool>false</bool>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QLineEdit" name="originEdit"/>
-    </item>
-    <item row="2" column="0">
-     <widget class="QLabel" name="label_3">
-      <property name="text">
-       <string>重命名为</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="1">
-     <widget class="QLineEdit" name="renameEdit"/>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QPushButton" name="confirmBtn">
-   <property name="geometry">
-    <rect>
-     <x>513</x>
-     <y>140</y>
-     <width>91</width>
-     <height>32</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>确认</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="cancelBtn">
-   <property name="geometry">
-    <rect>
-     <x>420</x>
-     <y>140</y>
-     <width>91</width>
-     <height>32</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>取消</string>
-   </property>
-  </widget>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0" colspan="2">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>文件路径</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>文件类型</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QRadioButton" name="fileRadio">
+         <property name="text">
+          <string>文件</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="dirRadio">
+         <property name="text">
+          <string>文件夹</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="originBtn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="sizeIncrement">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="text">
+        <string>选择</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="originEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>重命名为</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="renameEdit"/>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancelBtn">
+       <property name="text">
+        <string>取消</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="confirmBtn">
+       <property name="text">
+        <string>确认</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>

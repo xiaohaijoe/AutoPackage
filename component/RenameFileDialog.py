@@ -3,6 +3,8 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMessageBox, QDialog
 
 from ui.dialog.RenameFileDialog import Ui_RenameFileDialog
+from util import ScreenUtil
+
 
 class RenameFileDialog(QtWidgets.QDialog, Ui_RenameFileDialog):
 
@@ -30,6 +32,9 @@ class RenameFileDialog(QtWidgets.QDialog, Ui_RenameFileDialog):
         self.originBtn.clicked.connect(self.on_open_origin)  # 打开源文件
         self.confirmBtn.clicked.connect(self.on_confirm)
         self.cancelBtn.clicked.connect(self.reject)
+
+        width, height = ScreenUtil.get_screen_size()
+        self.resize(width*0.5, self.height())
 
 
     # 打开源文件

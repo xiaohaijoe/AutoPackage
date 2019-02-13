@@ -3,6 +3,8 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMessageBox, QDialog
 
 from ui.dialog.CopyDirToPathDialog import Ui_CopyDirToPathDialog
+from util import ScreenUtil
+
 
 class CopyDirToPathDialog(QtWidgets.QDialog, Ui_CopyDirToPathDialog):
 
@@ -29,6 +31,8 @@ class CopyDirToPathDialog(QtWidgets.QDialog, Ui_CopyDirToPathDialog):
         self.confirmBtn.clicked.connect(self.on_confirm)
         self.cancelBtn.clicked.connect(self.reject)
 
+        width, height = ScreenUtil.get_screen_size()
+        self.resize(width*0.5, self.height())
 
     # 打开源文件
     def on_open_origin(self):
