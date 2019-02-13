@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2aecc777-5711-44a5-bee5-bd9b4661d2e9" name="Default Changelist" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AutoPackage.iml" afterPath="$PROJECT_DIR$/.idea/AutoPackage.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="2aecc777-5711-44a5-bee5-bd9b4661d2e9" name="Default Changelist" comment="屏幕自适应">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component/ExecuteItemWidget.py" afterPath="$PROJECT_DIR$/component/ExecuteItemWidget.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/widget/ExecuteItemWidget.py" afterPath="$PROJECT_DIR$/ui/widget/ExecuteItemWidget.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/widget/ExecuteItemWidget.ui" afterPath="$PROJECT_DIR$/ui/widget/ExecuteItemWidget.ui" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -351,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550026367389</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="屏幕自适应">
+      <created>1550026549068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550026549068</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
