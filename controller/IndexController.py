@@ -6,7 +6,8 @@ from PyQt5.QtWidgets import QInputDialog, QLineEdit
 from component import ExecuteItemWidget
 from manager import CommandManager, ExecuteCommandManager
 from ui.layout.index import Ui_indexWindow
-from util import Constant
+from util import Constant, ScreenUtil
+
 
 class IndexController(QtWidgets.QMainWindow, Ui_indexWindow):
     removeSignal = QtCore.pyqtSignal(int)                   # 移除item信号量
@@ -32,11 +33,16 @@ class IndexController(QtWidgets.QMainWindow, Ui_indexWindow):
         self.stopBtn.clicked.connect(self.on_executing_stop)                                    # 停止执行按钮
         self.executeSavedSpinner.currentIndexChanged.connect(self.on_execute_save_selected)     # 已保存命令集
 
+        self.init_ui()
         self.init_command_list_view(self.commandManager.commandList)                            # 初始化命令集
         self.init_execute_list_view(self.commandManager.currentExecuteList)                     # 初始化执行命令集
         self.init_save_execute_list_view(self.commandManager.executeSaveList)                   # 初始化保存命令集
         self.init_save_label_view(self.commandManager.executeSaveName)                          # 初始化执行命令集名称
         self.init_execute_progress_list_view()                                                  # 初始化执行进度集
+
+    def init_ui(self):
+        width, height = ScreenUtil.get_screen_size()
+        self.resize(width*0.66, height*0.8)
 
     # 初始化保存命令集名称
     def init_save_label_view(self, name):

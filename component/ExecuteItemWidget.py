@@ -12,10 +12,10 @@ class ExecuteItemWidget(QtWidgets.QWidget,Ui_ExecuteItemWidget):
         self.item = list[index]
         self.index = index
         self.nameLabel.setText(str(self.index+1)+". "+self.item['name'])
-        # self.detailLabel.setText(self.item['detail'])
-        s = self.item['detail']
-        s = str(s).replace('\n', '<br>')
-        self.detailLabel.setText('<div style="line-height:30px;font-size:20px;">'+ s + '</div>')
+        self.detailLabel.setText(self.item['detail'])
+        # s = self.item['detail']
+        # s = str(s).replace('\n', '<br>')
+        # self.detailLabel.setText('<div style="line-height:30px;font-size:20px;">'+ s + '</div>')
 
         self.setLayout(self.gridLayout)
         self.removeBtn.clicked.connect(self.on_remove)
