@@ -74,9 +74,9 @@
       </widget>
      </item>
      <item row="0" column="0">
-      <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,1">
        <property name="spacing">
-        <number>6</number>
+        <number>0</number>
        </property>
        <item>
         <widget class="QLabel" name="nameLabel">
@@ -132,7 +132,7 @@
           <widget class="QPushButton" name="moveDownBtn">
            <property name="maximumSize">
             <size>
-             <width>60</width>
+             <width>16777215</width>
              <height>16777215</height>
             </size>
            </property>
@@ -150,7 +150,7 @@
           <widget class="QPushButton" name="moveUpBtn">
            <property name="maximumSize">
             <size>
-             <width>60</width>
+             <width>16777215</width>
              <height>16777215</height>
             </size>
            </property>
@@ -168,7 +168,7 @@
           <widget class="QPushButton" name="removeBtn">
            <property name="maximumSize">
             <size>
-             <width>60</width>
+             <width>16777215</width>
              <height>16777215</height>
             </size>
            </property>

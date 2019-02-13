@@ -17,7 +17,7 @@ class ExecuteItemWidget(QtWidgets.QWidget,Ui_ExecuteItemWidget):
         # s = str(s).replace('\n', '<br>')
         # self.detailLabel.setText('<div style="line-height:30px;font-size:20px;">'+ s + '</div>')
 
-        self.setLayout(self.gridLayout)
+        # self.setLayout(self.gridLayout)
         self.removeBtn.clicked.connect(self.on_remove)
         self.editBtn.clicked.connect(self.on_edit)
         self.moveUpBtn.clicked.connect(self.on_move_up)
