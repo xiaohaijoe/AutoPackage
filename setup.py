@@ -7,8 +7,8 @@ if __name__ == '__main__':
     ops = ['main.py',
            '-F',
            '-w',
-           '--paths=C:\\Users\\xiaohaijoe\\AppData\\Local\\Programs\\Python\\Python37\\Lib\\site-packages\\PyQt5\\Qt'
-           '\\bin',
+           # '--paths=C:\\Users\\xiaohaijoe\\AppData\\Local\\Programs\\Python\\Python37\\Lib\\site-packages\\PyQt5\\Qt'
+           # '\\bin',
            '--hidden-import=queue',
            ]
     # ops = [

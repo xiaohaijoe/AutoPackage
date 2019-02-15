@@ -45,7 +45,7 @@ class FileUtil:
     @staticmethod
     def copy_folder(source_path, target_path):
         """
-        文件加复制到指定文件夹
+        文件夹复制到指定文件夹
         :param source_path: 待复制文件夹完整路径
         :param target_path: 存放目标文件夹路径
         :return:
